@@ -1,0 +1,42 @@
+@import '../../assets/variables/colors.scss';
+
+.details-container {
+    margin-top: 30px;
+    display: flex; 
+}
+
+.photo-container {
+    display: inline-block;
+    width: 30%;
+
+    img {
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+.desc-container {
+    display: inline-block;
+    width: 70%;
+}
+
+.likes-container {
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    padding-left: 35px;
+}
+
+.like-icon {
+    cursor: pointer;
+
+    svg {
+        width: 95px;
+    }
+}
+
+.likes-display {
+    margin-left: 10px; 
+    color: $primary; 
+    font-weight: bold; 
+}

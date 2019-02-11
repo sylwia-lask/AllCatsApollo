@@ -1,0 +1,7 @@
+  <div class="link-container">
+      <a class="add-cat-link" routerLink="/create">ADD +</a>
+  </div>
+  
+  <ul>
+    <cat-list-item *ngFor="let cat of cats | async" [cat]="cat"></cat-list-item>
+  </ul>

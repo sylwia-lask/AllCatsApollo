@@ -1,0 +1,49 @@
+<h2>Add new cat</h2>
+
+<div [formGroup]="catForm" class="cat-form">
+
+    <div class="row">
+        <div class="col-3 label-column">
+            <span class="bold">Name: </span>
+        </div>
+        <div class="col-7">
+            <input type="text" formControlName="name">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 label-column">
+            <span class="bold">Description: </span>
+        </div>
+        <div class="col-7">
+            <input type="text" formControlName="description">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 label-column">
+            <span class="bold">Color: </span>
+        </div>
+        <div class="col-7">
+            <input type="text" formControlName="color">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 label-column">
+            <span class="bold">Photo URL: </span>
+        </div>
+        <div class="col-7">
+            <input type="text" formControlName="photoUrl">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 label-column">
+        </div>
+        <div class="col-7">
+            <button (click)="addCat()">Add +</button>
+        </div>
+    </div>
+
+</div>

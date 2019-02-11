@@ -1,0 +1,20 @@
+@import '../../assets/variables/colors.scss';
+
+.cat-form {
+    margin-top: 30px;
+}
+
+button {
+    border: 0; 
+    background-color: transparent; 
+    box-shadow: none;
+    color: $primary;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+        color: lighten($primary, 20%);
+    }
+}

@@ -1,0 +1,64 @@
+@import '../../assets/variables/colors.scss';
+
+li {
+    margin: 3px 0;
+    padding: 5px;
+    box-shadow: 0px 15px 10px -15px #111;  
+    overflow: hidden;
+	outline: 0;
+	cursor: pointer;
+
+    &:hover, &.active {
+        background-color: #fcf6f6;
+        outline: 0;
+    }
+}
+
+.photo-container {
+    float: left;
+}
+
+img {
+    margin: 3px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.info-container {
+    float: left;
+    margin-left: 10px;
+
+    a {
+        color: $black-primary;
+        text-decoration: none; 
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    p {
+        color: $black-secondary;
+    }
+
+    span {
+        height: 20px;
+        font-size: 15px;
+        color: $primary;
+        font-weight: bold;
+    }
+}
+
+.like-container {
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin: 10px 30px 0 0;
+    text-align: center;
+    
+    p {
+        height: 50px;
+        cursor: pointer;
+    }
+}
+

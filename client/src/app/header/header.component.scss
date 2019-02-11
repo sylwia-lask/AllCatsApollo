@@ -1,0 +1,12 @@
+@import '../../assets/variables/colors.scss';
+
+header {
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    color: $primary;
+    font-family: 'Gloria Hallelujah', sans-serif;
+    font-size: 23px;
+}

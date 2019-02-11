@@ -1,0 +1,21 @@
+@import '../../assets/variables/colors.scss';
+
+.link-container {
+    text-align: right;
+}
+
+.add-cat-link {
+    color: $primary;
+    font-size: 20px;
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: .3s;
+
+    &:hover {
+        color: lighten($primary, 20%);
+    }
+}
+
+ul {
+    list-style: none;
+}
